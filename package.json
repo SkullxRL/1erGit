@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-
     "build": "webpack --mode production",
     "start": "webpack serve --mode development --open"
   },
@@ -34,5 +33,8 @@
     "webpack": "^5.108.4",
     "webpack-cli": "^7.2.1",
     "webpack-dev-server": "^6.0.0"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0"
   }
 }
