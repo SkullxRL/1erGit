@@ -1,0 +1,38 @@
+{
+  "name": "1ergit",
+  "version": "1.0.0",
+  "description": "Bienvenue sur Adventurer Ranks, un projet web réalisé par des étudiants de 2e année en MMI (IUT - Université de la Nouvelle-Calédonie).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkullxRL/1erGit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SkullxRL/1erGit/issues"
+  },
+  "homepage": "https://github.com/SkullxRL/1erGit#readme",
+  "devDependencies": {
+    "@babel/core": "^8.0.1",
+    "@babel/preset-env": "^8.0.2",
+    "babel-loader": "^10.1.1",
+    "copy-webpack-plugin": "^14.0.0",
+    "html-webpack-plugin": "^5.6.7",
+    "image-minimizer-webpack-plugin": "^5.0.0",
+    "imagemin": "^9.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "webpack": "^5.108.4",
+    "webpack-cli": "^7.2.1",
+    "webpack-dev-server": "^6.0.0"
+  }
+}
