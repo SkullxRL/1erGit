@@ -11,6 +11,7 @@ Cette page permet d'informer les visiteurs du statut du service et de leur propo
 
 - Démo en ligne: https://sae203.hopto.org/~anthonym/ar/
 - GitHub du dev: https://github.com/SkullxRL/1erGit
+- Lien officiel: https://ar-maintenance.netlify.app/
 
 ## Lancer le projet en local
 
