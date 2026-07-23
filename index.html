@@ -10,156 +10,90 @@
 
 	<link rel="icon" type="image/png" href="assets/logo_AR.png" />
 	<link rel="stylesheet" href="style.css" />
-
-	<style>
-		* {
-	box-sizing: border-box;
-}
-
-body {
-	margin: 0;
-	padding: 20px;
-	font-family: Arial, sans-serif;
-	background: #f5f5f5;
-	color: #222;
-}
-
-.maintenance-card {
-	max-width: 700px;
-	margin: 40px auto;
-	padding: 24px;
-	background: #fff;
-	border: 1px solid #ddd;
-	border-radius: 8px;
-	text-align: center;
-}
-
-.logo {
-	display: block;
-	width: 90px;
-	height: auto;
-	margin: 0 auto 12px;
-	padding: 8px;
-	background: #1f2937;
-	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-}
-
-.status {
-	margin: 0;
-	font-size: 14px;
-	color: #cf0505;
-	font-weight: bold;
-}
-
-h1 {
-	margin: 10px 0;
-	font-size: 28px;
-}
-
-.lead {
-	margin: 0 auto 16px;
-	line-height: 1.5;
-	max-width: 600px;
-}
-
-.countdown {
-	display: inline-flex;
-	align-items: center;
-	gap: 8px;
-	padding: 8px 12px;
-	border: 1px solid #ccc;
-	border-radius: 20px;
-	margin-bottom: 20px;
-}
-
-.dot {
-	width: 8px;
-	height: 8px;
-	border-radius: 50%;
-	background: #2e7d32;
-}
-
-.links {
-	display: grid;
-	gap: 10px;
-}
-
-.links a {
-	display: block;
-	padding: 10px;
-	border: 1px solid #ccc;
-	border-radius: 6px;
-	text-decoration: none;
-	color: #222;
-	background: #fafafa;
-}
-
-.links a:hover {
-	background: #f0f0f0;
-}
-
-.icon {
-	display: inline-block;
-	width: 16px;
-	height: 16px;
-	margin-right: 6px;
-	vertical-align: -2px;
-}
-
-.icon svg {
-	width: 16px;
-	height: 16px;
-	fill: currentColor;
-}
-
-footer {
-	margin-top: 16px;
-	color: #666;
-	font-size: 14px;
-}
-
-	</style>
 </head>
 <body>
-	<main class="maintenance-card">
-		<img src="img/logo_AR.png" alt="Logo Adventurer Ranks" class="logo" />
+	<div class="page-shell">
+		<div class="background-orb orb-a"></div>
+		<div class="background-orb orb-b"></div>
 
-		<p class="status">Service temporairement indisponible</p>
-		<h1>Adventurer Ranks<br />est en maintenance</h1>
-		<p class="lead">
-			Nous améliorons le jeu afin de vous offrir la meilleure expérience possible. <br />
-			Merci pour votre patience.
-		</p>
+		<header class="hero">
+			<main class="maintenance-card">
+				<img src="img/logo_AR.png" alt="Logo Adventurer Ranks" class="logo" />
 
-		<div class="countdown" aria-live="polite">
-			<span class="dot"></span>
-			Retour estimé: 1er août 2026
-		</div>
+				<p class="status">Service temporairement indisponible</p>
+				<h1>Adventurer Ranks<br />est en maintenance</h1>
+				<p class="lead">
+					Nous améliorons le jeu afin de vous offrir la meilleure expérience possible. <br />
+					Merci pour votre patience.
+				</p>
 
-		<nav class="links" aria-label="Liens utiles">
-			<a href="https://github.com/SkullxRL/1erGit" target="_blank" rel="noopener noreferrer">
-				<span class="icon" aria-hidden="true">
-					<svg viewBox="0 0 24 24" role="img" focusable="false">
-						<path d="M12 2C6.48 2 2 6.59 2 12.25c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.5 0-.25-.01-.9-.01-1.77-2.78.62-3.37-1.37-3.37-1.37-.46-1.19-1.12-1.5-1.12-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.09 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.27 2.75 1.05A9.36 9.36 0 0 1 12 6.8c.85 0 1.7.12 2.5.35 1.9-1.32 2.74-1.05 2.74-1.05.56 1.42.21 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.96-2.34 4.83-4.57 5.08.36.32.67.95.67 1.92 0 1.39-.01 2.5-.01 2.85 0 .28.18.61.69.5A10.26 10.26 0 0 0 22 12.25C22 6.59 17.52 2 12 2Z"/>
-					</svg>
-				</span>
-				GitHub du projet
-			</a>
+				<div class="countdown" aria-live="polite">
+					<span class="dot"></span>
+					Retour estimé: 1er août 2026
+				</div>
 
-			<a href="https://sae203.hopto.org/~anthonym/ar/" target="_blank" rel="noopener noreferrer">
-				<span class="icon" aria-hidden="true">
-					<svg viewBox="0 0 24 24" role="img" focusable="false">
-						<path d="M10 7l6 5-6 5V7z"/>
-						<path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 18a8 8 0 110-16 8 8 0 010 16z"/>
-					</svg>
-				</span>
-				Voir la démo
-			</a>
-		</nav>
+				<nav class="links" aria-label="Liens utiles">
+					<a href="https://github.com/SkullxRL/1erGit" target="_blank" rel="noopener noreferrer">
+						<span class="icon" aria-hidden="true">
+							<svg viewBox="0 0 24 24" role="img" focusable="false">
+								<path d="M12 2C6.48 2 2 6.59 2 12.25c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.5 0-.25-.01-.9-.01-1.77-2.78.62-3.37-1.37-3.37-1.37-.46-1.19-1.12-1.5-1.12-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.09 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.27 2.75 1.05A9.36 9.36 0 0 1 12 6.8c.85 0 1.7.12 2.5.35 1.9-1.32 2.74-1.05 2.74-1.05.56 1.42.21 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.96-2.34 4.83-4.57 5.08.36.32.67.95.67 1.92 0 1.39-.01 2.5-.01 2.85 0 .28.18.61.69.5A10.26 10.26 0 0 0 22 12.25C22 6.59 17.52 2 12 2Z"/>
+							</svg>
+						</span>
+						GitHub du projet
+					</a>
 
-		<footer>
-			<small>Adventurer Ranks - Maintenance en cours</small>
-		</footer>
-	</main>
+					<a href="https://sae203.hopto.org/~anthonym/ar/" target="_blank" rel="noopener noreferrer">
+						<span class="icon" aria-hidden="true">
+							<svg viewBox="0 0 24 24" role="img" focusable="false">
+								<path d="M10 7l6 5-6 5V7z"/>
+								<path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 18a8 8 0 110-16 8 8 0 010 16z"/>
+							</svg>
+						</span>
+						Voir la démo
+					</a>
+				</nav>
+
+				<a class="scroll-link" href="#updates">Voir l'avancement</a>
+
+				<footer>
+					<small>Adventurer Ranks - Maintenance en cours</small>
+				</footer>
+			</main>
+		</header>
+
+		<section class="updates-section" id="updates">
+			<div class="section-heading reveal">
+				<p class="eyebrow">Suivi maintenance</p>
+				<h2>Le site reste vivant pendant l'attente</h2>
+				<p>
+					On ajoute un vrai second écran pour pouvoir scroller et quelques blocs qui se révèlent au fur et à mesure.
+				</p>
+			</div>
+
+			<div class="updates-grid">
+				<article class="update-card reveal">
+					<span class="update-step">01</span>
+					<h3>Correctifs visuels</h3>
+					<p>Polissage de l'interface, meilleure lisibilité et mouvements plus naturels.</p>
+				</article>
+
+				<article class="update-card reveal">
+					<span class="update-step">02</span>
+					<h3>Retour du contenu</h3>
+					<p>Réintégration progressive des pages utiles avec un accès stable sur mobile et desktop.</p>
+				</article>
+
+				<article class="update-card reveal">
+					<span class="update-step">03</span>
+					<h3>Préparation du relaunch</h3>
+					<p>Derniers tests, optimisation des assets et vérification du parcours utilisateur.</p>
+				</article>
+			</div>
+
+			<div class="status-banner reveal">
+				<p>Merci de revenir bientôt. Cette page est maintenant scrollable et animée même après le chargement.</p>
+			</div>
+		</section>
+	</div>
 </body>
 </html>
