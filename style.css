@@ -4,10 +4,13 @@
 
 body {
 	margin: 0;
-	padding: 20px;
+	min-height: 100vh;
+	padding: 24px;
 	font-family: Arial, sans-serif;
 	background: #f5f5f5;
 	color: #222;
+	display: flex;
+	align-items: center;
 }
 
 .maintenance-card {
@@ -16,8 +19,11 @@ body {
 	padding: 24px;
 	background: #fff;
 	border: 1px solid #ddd;
-	border-radius: 8px;
+	border-radius: 10px;
+	box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
 	text-align: center;
+	transform-style: preserve-3d;
+	will-change: transform;
 }
 
 .logo {
@@ -27,6 +33,7 @@ body {
 	margin: 0 auto 12px;
 	padding: 8px;
 	background: #1f2937;
+	border-radius: 8px;
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -35,16 +42,18 @@ body {
 	font-size: 14px;
 	color: #cf0505;
 	font-weight: bold;
+	letter-spacing: 0.01em;
 }
 
 h1 {
 	margin: 10px 0;
 	font-size: 28px;
+	line-height: 1.15;
 }
 
 .lead {
 	margin: 0 auto 16px;
-	line-height: 1.5;
+	line-height: 1.6;
 	max-width: 600px;
 }
 
@@ -56,6 +65,7 @@ h1 {
 	border: 1px solid #ccc;
 	border-radius: 20px;
 	margin-bottom: 20px;
+	background: #fcfcfc;
 }
 
 .dot {
@@ -78,10 +88,13 @@ h1 {
 	text-decoration: none;
 	color: #222;
 	background: #fafafa;
+	transition: background-color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
 }
 
 .links a:hover {
 	background: #f0f0f0;
+	border-color: #bdbdbd;
+	transform: translateY(-1px);
 }
 
 .icon {
