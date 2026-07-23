@@ -58,4 +58,27 @@ window.addEventListener('DOMContentLoaded', () => {
 			ease: 'sine.inOut',
 		});
 	}
+
+	window.addEventListener('mousemove', (event) => {
+		const offsetX = (event.clientX / window.innerWidth - 0.5) * 12;
+		const offsetY = (event.clientY / window.innerHeight - 0.5) * 12;
+
+		gsap.to(card, {
+			rotateY: offsetX * 0.35,
+			rotateX: -offsetY * 0.25,
+			transformPerspective: 900,
+			transformOrigin: 'center',
+			duration: 0.45,
+			ease: 'power2.out',
+		});
+	});
+
+	window.addEventListener('mouseleave', () => {
+		gsap.to(card, {
+			rotateX: 0,
+			rotateY: 0,
+			duration: 0.45,
+			ease: 'power2.out',
+		});
+	});
 });
