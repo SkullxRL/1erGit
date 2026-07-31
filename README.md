@@ -2,10 +2,27 @@
 
 Bienvenue sur Adventurer Ranks, un projet web réalisé par des étudiants de 2e année en MMI (IUT - Université de la Nouvelle-Calédonie).
 
+## Progression du projet
+
+Nous travaillons actuellement sur l’alpha 1.0 du projet.
+
+### Ce qui est déjà en place
+
+- L’histoire interactive fonctionne correctement
+- Les histoires de formation UNC Quest sont en cours de mise en place
+- Des mini-jeux en rapport avec les formations sont en développement
+- Le projet est porté par l’entreprise Adventurer Ranks
+
+### Ce qui est prévu
+
+- Finaliser la démo UNC Quest
+- Développer davantage les mini-jeux éducatifs
+- Ajouter de nouvelles scènes et contenus narratifs
+- Préparer la version finale prévue pour fin 2026
+
 ## Aperçu
 
-Le site est actuellement en mode maintenance.
-Cette page permet d'informer les visiteurs du statut du service et de leur proposer des liens utiles.
+Le site présente l’état actuel du projet et met en avant la progression de l’alpha 1.0.
 
 ## Démo
 
@@ -23,6 +40,6 @@ Projet réalisé par une équipe d'étudiants en MMI 2e année (promotion 2026).
 
 ## Améliorations prévues
 
-- Ajouter une vraie date de retour dynamique
-- Ajouter une page de statut complète
+- Ajouter une vraie date de sortie dynamique
+- Ajouter une page de progression plus complète
 - Ajouter une version bilingue FR/EN
